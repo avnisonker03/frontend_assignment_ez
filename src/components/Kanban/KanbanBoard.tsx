@@ -3,7 +3,7 @@ import { DndContext } from "@dnd-kit/core";
 import type { DragEndEvent } from "@dnd-kit/core";
 import type { ColumnType } from "./types";
 import { Column } from "./Column";
-import "./kanban.css";
+import "./Kanban.css";
 
 const initialColumns: ColumnType[] = [
   { id: "todo", title: "Todo", cards: [] },
